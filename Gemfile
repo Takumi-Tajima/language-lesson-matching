@@ -30,7 +30,6 @@ end
 
 group :development do
   gem 'bullet'
-  gem 'html2haml'
   gem 'web-console'
 end
 

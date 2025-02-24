@@ -11,6 +11,7 @@ gem 'kamal', require: false
 gem 'pg'
 gem 'propshaft'
 gem 'puma'
+gem 'simple_form'
 gem 'solid_cable'
 gem 'solid_cache'
 gem 'solid_queue'

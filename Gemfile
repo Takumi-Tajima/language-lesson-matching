@@ -1,27 +1,28 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem "rails", "~> 8.0.1"
-gem "propshaft"
-gem "pg"
-gem "puma"
-gem "jsbundling-rails"
-gem "turbo-rails"
-gem "stimulus-rails"
-gem "cssbundling-rails"
-gem "jbuilder"
-gem "solid_cache"
-gem "solid_queue"
-gem "solid_cable"
-gem "bootsnap", require: false
-gem "kamal", require: false
-gem "thruster", require: false
+gem 'rails', '~> 8.0.1'
 
+gem 'bootsnap', require: false
+gem 'cssbundling-rails'
+gem 'jbuilder'
+gem 'jsbundling-rails'
+gem 'kamal', require: false
+gem 'pg'
+gem 'propshaft'
+gem 'puma'
+gem 'solid_cable'
+gem 'solid_cache'
+gem 'solid_queue'
+gem 'stimulus-rails'
+gem 'thruster', require: false
+gem 'turbo-rails'
 
 group :development, :test do
-  gem "debug"
-  gem "brakeman", require: false
+  gem 'brakeman', require: false
+  gem 'debug'
+  gem 'sgcop', github: 'SonicGarden/sgcop', branch: 'main'
 end
 
 group :development do
-  gem "web-console"
+  gem 'web-console'
 end
